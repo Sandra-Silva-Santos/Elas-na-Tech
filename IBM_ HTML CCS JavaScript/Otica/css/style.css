@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@font-face {
+    font-family: "Florentia";
+    src: url("fonts/Florentia-Thin-trial.ttf");
+}
+
+.clearfix {
+    clear: both;
+}
+
+body {
+    margin: 0 auto;
+    font-family: "Raleway", "Florentia", sans-serif;
+}
+
+textarea,
+input {
+    font-family: "Raleway", "Florentia", sans-serif;
+}
+
+.barra_superior {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    color: rgb(187, 187, 187);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+nav {
+    display: flex;
+    color: rgb(187, 187, 187);
+    font-size: 12px;
+    float: right;
+    margin-top: 50px;
+}
+
+nav a {
+    color: rgb(187, 187, 187);
+    text-decoration: none;
+}
+
+nav a.btn_destaque {
+    margin-left: 25px;
+}
+
+.btn_destaque,
+.metade input[type=submit] {
+    border: none;
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 12px 40px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.sec01 {
+    height: 640px;
+    background-image: url(../img/Home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(164, 164, 164);
+}
+
+.sec01 p.titulo {
+    font-size: 48px;
+    padding-top: 130px;
+}
+
+.sec01 p {
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 120%;
+}
+
+.sec02 {
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.sec02 p {
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec02 img {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.sec03 {
+    background-color: rgb(239, 243, 249);
+    height: 664px;
+    background-image: url(../img/Home2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.sec03 p {
+    font-size: 54px;
+    line-height: 120%;
+    color: rgb(102, 102, 102);
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.largura40 {
+    width: 35%;
+    float: left;
+    background-color: rgb(239, 243, 249);
+    height: 664px;
+}
+
+.direitos_reservados {
+    background-color: rgb(255, 77, 77);
+    color: white;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.direitos_reservados a {
+    color: white;
+}
+
+.um_terco {
+    width: 33%;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.um_terco,
+.um_terco a {
+    color: rgb(136, 136, 136);
+}
+
+.um_terco .logo {
+    width: 100%;
+}
+
+.um_terco img {
+    width: 35px;
+}
+
+.margem_esquerda {
+    margin-left: 30px;
+}
+
+.sec_fale,
+.sec_onde {
+    height: 500px;
+    background-color: #FAFAFA;
+}
+
+.sec_fale .metade {
+    padding-top: 100px;
+}
+
+.metade {
+    width: 50%;
+    float: left;
+    line-height: 150%;
+    color: rgb(120, 120, 120);
+}
+
+.metade div,
+.metade address {
+    margin-left: 20px;
+}
+
+.metade form {
+    line-height: 250%;
+}
+
+.metade form input[type=text],
+textarea,
+.modal input[type=text] {
+    border: none;
+    border-bottom: 1px solid lightgray;
+    width: 63%;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+
+.metade textarea {
+    min-height: 100px;
+}
+
+.metade input[type=submit] {
+    float: right;
+}
+
+.metade img {
+    width: 35px;
+}
+
+.metade label {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Tablets e Computadores */
+@media screen and (min-width: 481px) and (max-width: 1366px) {}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
+    .barra_superior .container {
+        margin-left: 10px;
+    }
+
+    .logo {
+        width: 100%;
+
+    }
+
+    nav {
+        flex-wrap: wrap;
+        float: none;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    nav .btn_destaque {
+        margin-top: 10px;
+        margin-left: 0px !important;
+    }
+
+    .sec01 p,
+    .sec01 .btn_destaque {
+        margin-left: 20px;
+    }
+
+    .sec03 {
+        background-image: none;
+        height: 450px;
+        text-align: center;
+        border-bottom: 1px solid rgb(204, 204, 204);
+    }
+
+    .sec03 p {
+        padding-top: 10px;
+    }
+
+    .largura40 {
+        width: 100%;
+        height: 450px;
+    }
+
+    .um_terco {
+        width: 100%;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        padding-left: 2vw;
+    }
+
+    .margem_esquerda {
+        margin-left: 0px;
+    }
+
+    .um_terco .logo {
+        width: 50%;
+
+    }
+
+    .container_logo {
+        text-align: center;
+    }
+}
+
+
+.modal {
+
+    display: none;
+    position: fixed;
+    width: 400px;
+    min-height: 200px;
+    background-color: white;
+    top: 50%;
+    margin-top: -100px;
+    left: 45%;
+    margin-left: -200px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.modal input[type=text] {
+    width: 95%;
+    background-color: white;
+}
+
+.modal a {
+    float: right;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+span.nao_valido {
+    color: red;
+    display: none;
+}
+
+input.nao_valido,
+textarea.nao_valido {
+    border-bottom: 1px solid red !important;
+}
+
+.texto {
+    color: gray;
+    float: right;
+    font-size: 12px;
+    line-height: 12px;
+}
