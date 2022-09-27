@@ -1,0 +1,276 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 350px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 300px;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    line-height: 180%;
+    font-size: 1.5rem;
+    color: #000;
+}
+
+p.p_home {
+    margin-top: 2rem;
+}
+
+.texto_home {
+    background-color: white;
+    font-size: 48px;
+    margin-top: 200px;
+    padding: 30px;
+    max-width: 520px;
+    opacity: 0.8;
+}
+
+.img_home {
+    background-image: url("../img/bg_home.jpg");
+    background-position: center;
+    height: 600px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+img.logo {
+    width: 50px;
+    float: left;
+}
+
+span.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: black;
+}
+
+footer img.logo {
+    float: none;
+    margin-top: 1rem;
+}
+
+footer ul li a,
+footer ul li a:hover {
+    text-decoration: none;
+    line-height: 2rem;
+    color: black;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+.col-sm-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.col-md-4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.col-sm-12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+
+}
+
+.navbar-default {
+    background-color: white;
+    height: 100px;
+}
+
+.navbar-default .navbar-nav {
+    margin-top: 1rem;
+    float: right;
+}
+
+/* Smartphone */
+.navbar-header .navbar-toggle {
+    margin-top: 2.5rem;
+}
+
+
+footer .row {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgb(204, 204, 204);
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+footer .divisao {
+    border-left: 1px solid rgb(204, 204, 204);
+
+}
+
+.logo_redes {
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Página Contato - Parte 1*/
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contato_destaque h3 {
+    color: rgb(84, 84, 84);
+    font-weight: bold;
+}
+
+.contato_destaque p {
+    font-size: 1.5rem;
+}
+
+.contato_horario,
+.contato_horario h3,
+.contato_horario p {
+    font-size: 1.5rem;
+}
+
+.contato_horario h3 {
+    font-weight: bold;
+    color: black;
+}
+
+.contato_horario p {
+    color: rgb(120, 120, 120);
+}
+
+
+
+/* Página Contato - Parte 2*/
+
+.container_form_contato {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+row .container_form_contato {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 20px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container_form_contato textarea,
+.container_form_contato input[type=text],
+.container_form_contato input[type=email] {
+    width: 100%;
+    align-items: center;
+    background-color: rgb(246, 246, 246);
+    padding: 1rem;
+    border: 1px solid rgb(220, 220, 220);
+    color: rgb(180, 180, 180);
+}
+
+.container_form_contato input[type=text],
+.container_form_contato input[type=email] {
+    display: flex;
+
+}
+
+.container_form_contato input[type=email] {
+    margin: 1rem 0;
+}
+
+.container_form_contato input[type=submit] {
+    color: white;
+    background-color: rgb(229, 181, 83);
+    border: none;
+    padding: 1rem;
+}
+
+.col-md-12 {
+    margin-top: 150px;
+}
+
+.modal-dialog {
+    margin-top: 200px;
+}
+
+/* Smartphone */
+@media (max-width: 768px) {
+
+    .navbar-default .navbar-nav>li>a,
+    .navbar-default .navbar-nav>li>a:hover {
+        background-color: white;
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border: none;
+    }
+
+    .contato_destaque p {
+        font-size: 20px;
+    }
+
+    .container_form_contato input[type=text],
+    .container_form_contato input[type=email] {
+        width: 100%;
+    }
+
+    .container_form_contato input[type=email] {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
