@@ -1,4 +1,4 @@
-# Elas na Tech ();
+# ElasnaTech();
 
 ### O Elas na Tech é um programa focado na formação de mulheres na área de tecnologia. 
 
